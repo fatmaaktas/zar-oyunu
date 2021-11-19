@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-card-content > :last-child:not(.mat-card-footer) {
+    text-align: center;
+    margin-top: 44px;
+}
+.mat-card {
+    margin: 5%;
+    margin-top: 15%;
+}
+.buttonZar {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+}
+.mat-body,
+.mat-body-1,
+.mat-typography {
+    background-color: rgb(175, 175, 175);
+}
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
