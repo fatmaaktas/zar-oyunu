@@ -6,8 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![image](https://user-images.githubusercontent.com/49655751/155400367-c6125432-015c-47ab-8f18-e5372e936913.png)
 ![image](https://user-images.githubusercontent.com/49655751/155402001-412bbea7-edf4-4590-9c7f-c4e2086ee790.png)
 
-1.Console Number= Sum of guessed numbers
-2.Console Number= Sum of randomly generated numbers
+#1.Console Number= Sum of guessed numbers
+#2.Console Number= Sum of randomly generated numbers
 
 ## _If the 1st and 2nd numbers are the same, you win._
 
